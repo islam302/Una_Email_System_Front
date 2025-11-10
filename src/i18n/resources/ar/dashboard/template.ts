@@ -1,0 +1,35 @@
+export const template = {
+  successUpdateTemplate: "تم تحديث القالب بنجاح",
+  successDeleteTemplate: "تم حذف القالب بنجاح",
+  noListsAvailable: "لا توجد قوائم متاحة",
+  templateName: "اسم القالب",
+  templateContent: "محتوى القالب",
+  editTemplate: "تعديل القالب",
+  delete: "حذف",
+  insertVariable: "إدخال متغير",
+  insert: "إدراج",
+  cancel: "إلغاء",
+  enterVariableName: "أدخل اسم المتغير (مثل: name)",
+  contentPreview: "معاينة المحتوى",
+  addVariable: "إضافة متغير",
+  addCustomContent: "إضافة محتوى مخصص",
+  contentRequired: "المحتوى مطلوب",
+  contentTooShort: "المحتوى قصير جدًا",
+  predefinedVariables: {
+    name: "الاسم",
+    company: "الشركة",
+    email: "البريد الإلكتروني",
+    date: "التاريخ",
+  },
+  selectVariableError: "يرجى إدخال اسم المتغير!",
+
+  addNewTemplate: "إضافة قالب جديد",
+  successAddTemplate: "تم إضافة القالب بنجاح",
+  send: "إرسال",
+  add: "اضافة",
+  update: "تحديث",
+  visualEditor: "محرر",
+  htmlCode: "كود HTML",
+} as const;
+
+export default template;

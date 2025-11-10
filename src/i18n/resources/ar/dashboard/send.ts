@@ -1,0 +1,46 @@
+export const send = {
+  pageTitle: "إرسال بريد | EmailSender",
+
+  subjectPlaceholder: "الموضوع",
+  messagePlaceholder: "الرسالة",
+  addVariableButton: "إضافة متغير",
+  recipientsPlaceholder: "اختر مستلمًا واحدًا أو أكثر..",
+  recipientsListPlaceholder: "اختر قائمة واحدة أو أكثر..",
+  groupsPlaceholder: "اختر مجموعة واحدًا أو أكثر..",
+  noOptionsMessage: "لا توجد خيارات متاحة",
+  templatePlaceholder: "قالب البريد الإلكتروني",
+  attachmentLabel: "اختر ملف المرفقات (zip)",
+  scheduleLabel: "الوقت المجدول",
+  selectListPlaceholder: "اختار قائمة",
+  generalAttachmentLabel: "مرفق عام - يقبل أكثر من ملف",
+  excelUploadLabel: "رفع شيت أكسيل",
+  embeddedImageLabel: "رفع صورة",
+
+  yesNoSurvey: "استبيان بنعم/لا...",
+  customSurvey: "استبيان بسؤال مخصص...",
+  yesNoQuestionPlaceholder: "سؤال بنعم أو لا",
+  customQuestionPlaceholder: "سؤال مخصص",
+  questionTypePlaceholder: "اختر نوع السؤال",
+  fromEmailPlaceholder: "البريد الإلكتروني",
+
+  scheduledButton: "مجدول",
+  notScheduledButton: "غير مجدول",
+  sendButton: "إرسال",
+  deleteButton: "حذف",
+  variableInputPlaceholder: "اسم المتغير (إنجليزي فقط)",
+
+  successMessage: "تم إرسال الرسائل بنجاح",
+  deleteSuccess: "تم مسح جميع الحقول بنجاح!",
+  futureTimeError: "وقت الجدولة يجب أن يكون في المستقبل",
+
+  englishOnlyError: "المتغير يجب أن يكون باللغة الإنجليزية فقط!",
+  missingDataError: "يوجد بيانات ناقصه يرجي مراجعة البيانات",
+  listLabel: "القائمة",
+  missingFilesLabel: "الملفات الناقصة",
+  unknownLabel: "غير معروف",
+  unspecifiedLabel: "غير محدد",
+
+  fileSelected: "تم اختيار الملف",
+  variablePopupTitle: "إضافة متغير جديد",
+  fromEmailRequired: "البريد الإلكتروني مطلوب",
+} as const;

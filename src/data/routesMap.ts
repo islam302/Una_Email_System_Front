@@ -1,0 +1,195 @@
+import {
+  SoAddNote,
+  SoAirplane,
+  SoApp2,
+  SoBell,
+  SoBubbleChat,
+  SoCatalogue,
+  SoChartLine,
+  SoChartLine3,
+  SoChartLine4,
+  SoCog6,
+  SoEditTask,
+  SoHome,
+  SoLocation,
+  SoMoney,
+  SoQrCode,
+  SoSecurityLock,
+  SoSend,
+  SoShoppingCart,
+  SoSourceCode,
+  SoUser,
+  SoUserGroup2,
+  SoUserList,
+  SoUserMultiple,
+  SoWallet2,
+  SoWhatsapp,
+} from "solom-icon";
+
+export const routeMap = {
+  "/dashboard/home": {
+    icon: SoHome,
+    label: "dashboard.home",
+    path: "/dashboard/home",
+  },
+  "/dashboard/send": {
+    icon: SoSend,
+    label: "dashboard.send",
+    path: "/dashboard/send/",
+  },
+  "/dashboard/send/user": {
+    icon: SoUser,
+    label: "dashboard.send.user",
+    path: "/dashboard/send/",
+  },
+  "/dashboard/send/list": {
+    icon: SoUserList,
+    label: "dashboard.send.list",
+    path: "/dashboard/send/list",
+  },
+  "/dashboard/send/group": {
+    icon: SoUserGroup2,
+    label: "dashboard.send.group",
+    path: "/dashboard/send/group",
+  },
+  "/dashboard/sendsms/send-form-excel": {
+    icon: SoAddNote,
+    label: "dashboard.sendsms.send-form-excel",
+    path: "/dashboard/sendsms/send-form-excel",
+  },
+  "/dashboard/recipient": {
+    icon: SoUserGroup2,
+    label: "dashboard.recipient",
+    path: "/dashboard/recipient",
+  },
+  "/dashboard/recipient/*": {
+    icon: SoUserGroup2,
+    label: "dashboard.recipient.view",
+    path: "/dashboard/recipient/*",
+  },
+  "/dashboard/groups": {
+    icon: SoUserGroup2,
+    label: "dashboard.group",
+    path: "/dashboard/groups",
+  },
+  "/dashboard/groups/*": {
+    icon: SoUserGroup2,
+    label: "dashboard.group.view",
+    path: "/dashboard/groups/*",
+  },
+  "/dashboard/users": {
+    icon: SoUserMultiple,
+    label: "dashboard.users",
+    path: "/dashboard/users",
+  },
+  "/dashboard/users/amount": {
+    icon: SoUserMultiple,
+    label: "dashboard.users.amount",
+    path: "/dashboard/users/amount",
+  },
+  "/dashboard/logs/email": {
+    icon: SoUserMultiple,
+    label: "dashboard.logs.email",
+    path: "/dashboard/logs/email",
+  },
+  "/dashboard/financial": {
+    icon: SoWallet2,
+    label: "dashboard.financial",
+    path: "/dashboard/financial",
+  },
+  "/dashboard/financial/statments": {
+    icon: SoMoney,
+    label: "dashboard.financial.statments",
+    path: "/dashboard/financial/statments",
+  },
+  "/dashboard/financial/order": {
+    icon: SoShoppingCart,
+    label: "dashboard.financial.order",
+    path: "/dashboard/financial/order",
+  },
+  "/dashboard/services": {
+    icon: SoApp2,
+    label: "dashboard.services",
+    path: "/dashboard/services",
+  },
+  "/dashboard/services/credits-alert": {
+    icon: SoBell,
+    label: "dashboard.services.credits-alert",
+    path: "/dashboard/services/credits-alert",
+  },
+  "/dashboard/services/interactive": {
+    icon: SoBubbleChat,
+    label: "dashboard.services.interactive",
+    path: "/dashboard/services/interactive",
+  },
+  "/dashboard/services/landing": {
+    icon: SoAirplane,
+    label: "dashboard.services.landing",
+    path: "/dashboard/services/landing",
+  },
+  "/dashboard/services/short-code": {
+    icon: SoQrCode,
+    label: "dashboard.services.short-code",
+    path: "/dashboard/services/short-code",
+  },
+  "/dashboard/services/templates": {
+    icon: SoCatalogue,
+    label: "dashboard.services.templates",
+    path: "/dashboard/services/templates",
+  },
+  "/dashboard/services/whatsapp": {
+    icon: SoWhatsapp,
+    label: "dashboard.services.whatsapp",
+    path: "/dashboard/services/whatsapp",
+  },
+  "/dashboard/settings": {
+    icon: SoCog6,
+    label: "dashboard.settings",
+    path: "/dashboard/settings",
+  },
+  "/dashboard/settings/profile": {
+    icon: SoUser,
+    label: "dashboard.settings.profile",
+    path: "/dashboard/settings/profile",
+  },
+  "/dashboard/settings/security": {
+    icon: SoSecurityLock,
+    label: "dashboard.settings.security",
+    path: "/dashboard/settings/security",
+  },
+  "/dashboard/settings/senders": {
+    icon: SoEditTask,
+    label: "dashboard.settings.senders",
+    path: "/dashboard/settings/senders",
+  },
+  "/dashboard/developers": {
+    icon: SoSourceCode,
+    label: "dashboard.developers",
+    path: "/dashboard/developers",
+  },
+  "/dashboard/developers/http-v1": {
+    icon: SoLocation,
+    label: "dashboard.developers.http-v1",
+    path: "/dashboard/developers/http-v1",
+  },
+  "/dashboard/developers/whatsapp-api": {
+    icon: SoWhatsapp,
+    label: "dashboard.developers.whatsapp-api",
+    path: "/dashboard/developers/whatsapp-api",
+  },
+  "/dashboard/sms-reports": {
+    icon: SoChartLine,
+    label: "dashboard.sms-reports",
+    path: "/dashboard/sms-reports",
+  },
+  "/dashboard/sms-reports/general": {
+    icon: SoChartLine3,
+    label: "dashboard.sms-reports.general",
+    path: "/dashboard/sms-reports/general",
+  },
+  "/dashboard/sms-reports/statistics": {
+    icon: SoChartLine4,
+    label: "dashboard.sms-reports.statistics",
+    path: "/dashboard/sms-reports/statistics",
+  },
+};

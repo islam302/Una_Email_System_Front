@@ -1,0 +1,35 @@
+export const template = {
+  successUpdateTemplate: "Template updated successfully",
+  successDeleteTemplate: "Template deleted successfully",
+  noListsAvailable: "No templates available",
+  templateName: "Template Name",
+  templateContent: "Template Content",
+  editTemplate: "Edit Template",
+  delete: "Delete",
+  insertVariable: "Insert Variable",
+  insert: "Insert",
+  cancel: "Cancel",
+  enterVariableName: "Enter variable name (e.g., name)",
+  contentPreview: "Content Preview",
+  addVariable: "Add Variable",
+  addCustomContent: "Add Custom Content",
+  contentRequired: "Content is required",
+  contentTooShort: "Content is too short",
+  predefinedVariables: {
+    name: "Name",
+    company: "Company",
+    email: "Email",
+    date: "Date",
+  },
+  selectVariableError: "Please enter a variable name!",
+
+  addNewTemplate: "Add New Template",
+  successAddTemplate: "Template added successfully",
+  send: "Send",
+  add: "Add",
+  update: "Update",
+  visualEditor: "Visual Editor",
+  htmlCode: "HTML Code",
+} as const;
+
+export default template;

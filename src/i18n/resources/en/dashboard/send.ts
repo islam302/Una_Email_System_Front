@@ -1,0 +1,46 @@
+export const send = {
+  pageTitle: "EmailSender | Send Email",
+
+  subjectPlaceholder: "Subject",
+  messagePlaceholder: "Message",
+  addVariableButton: "Add Variable",
+  recipientsPlaceholder: "Select one or more recipient..",
+  recipientsListPlaceholder: "Select List or more recipients..",
+  groupsPlaceholder: "Select Group or more users..",
+  noOptionsMessage: "No options available",
+  templatePlaceholder: "Email Template",
+  attachmentLabel: "Choose attachment file (zip) - allow multiple files",
+  scheduleLabel: "Scheduled Time",
+  selectListPlaceholder: "Select List",
+  generalAttachmentLabel: "General Attachment",
+  excelUploadLabel: "Upload Excel Sheet",
+  embeddedImageLabel: "Upload Embedded Image",
+
+  yesNoSurvey: "Yes/No Survey...",
+  customSurvey: "Custom Question Survey...",
+  yesNoQuestionPlaceholder: "Yes or No question",
+  customQuestionPlaceholder: "Custom question",
+  questionTypePlaceholder: "Select question type",
+  fromEmailPlaceholder: "From Email Placeholder",
+
+  scheduledButton: "Scheduled",
+  notScheduledButton: "Not Scheduled",
+  sendButton: "Send",
+  deleteButton: "Delete",
+  variableInputPlaceholder: "Variable name (English only)",
+
+  successMessage: "Messages sent successfully",
+  deleteSuccess: "All fields cleared successfully!",
+  futureTimeError: "Scheduled time must be in the future",
+
+  englishOnlyError: "Variable must be in English only!",
+  missingDataError: "Error: No missing data",
+  listLabel: "List",
+  missingFilesLabel: "Missing files",
+  unknownLabel: "Unknown",
+  unspecifiedLabel: "Unspecified",
+
+  fileSelected: "File selected",
+  variablePopupTitle: "Add New Variable",
+  fromEmailRequired: "From email is required",
+} as const;
